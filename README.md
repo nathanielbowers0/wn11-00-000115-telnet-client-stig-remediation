@@ -48,7 +48,8 @@ An initial Tenable compliance scan confirmed that the system was compliant befor
 
 Passed
 
-<img width="1000" alt="Baseline Compliance" src="PASTE_GITHUB_LINK_HERE" />
+<img width="1064" height="40" alt="01_Baseline_Compliant_STIG_TelnetClient_Passed" src="https://github.com/user-attachments/assets/1393a059-b242-415c-bc22-34ded82ed991" />
+
 
 ---
 
@@ -68,7 +69,8 @@ Get-WindowsOptionalFeature -Online -FeatureName TelnetClient
 State : Disabled
 ```
 
-<img width="1000" alt="Local Validation" src="PASTE_GITHUB_LINK_HERE" />
+<img width="1150" height="466" alt="02_TelnetClient_Manual_Remediation_Validation" src="https://github.com/user-attachments/assets/bd9dd5ff-493c-4540-bdb8-5067ad3235c4" />
+
 
 ---
 
@@ -84,7 +86,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient
 
 This intentionally created a non-compliant state.
 
-<img width="1000" alt="Vulnerability Introduced" src="PASTE_GITHUB_LINK_HERE" />
+<img width="1376" height="488" alt="03_TelnetClient_Vulnerability_Introduced_PowerShell" src="https://github.com/user-attachments/assets/133ead8e-e335-495b-bbef-f07b93594455" />
+
 
 ---
 
@@ -98,7 +101,8 @@ Tenable successfully detected the STIG violation.
 
 Failed
 
-<img width="1000" alt="Tenable Failed Scan" src="PASTE_GITHUB_LINK_HERE" />
+<img width="1043" height="40" alt="04_Tenable_STIG_Failed_TelnetClient" src="https://github.com/user-attachments/assets/bcd70271-433c-4a02-b6a1-9ec547f0450a" />
+
 
 ---
 
@@ -113,7 +117,8 @@ The vulnerability was manually remediated through Windows Features.
 3. Unchecked the feature
 4. Applied changes
 
-<img width="1000" alt="GUI Remediation" src="PASTE_GITHUB_LINK_HERE" />
+<img width="878" height="448" alt="05_Manual_GUI_Remediation_TelnetClient" src="https://github.com/user-attachments/assets/001429d1-6c41-4653-9ebd-4918a318679d" />
+
 
 ---
 
@@ -133,7 +138,8 @@ Get-WindowsOptionalFeature -Online -FeatureName TelnetClient
 State : Disabled
 ```
 
-<img width="1000" alt="Remediation Validation" src="PASTE_GITHUB_LINK_HERE" />
+<img width="878" height="448" alt="06_Manual_Remediation_Validation_PowerShell" src="https://github.com/user-attachments/assets/ae543291-5126-46da-a465-1f01d0ac5642" />
+
 
 ---
 
@@ -145,7 +151,8 @@ A final Tenable compliance scan confirmed that the system returned to a complian
 
 Passed
 
-<img width="1000" alt="Final Compliance Validation" src="PASTE_GITHUB_LINK_HERE" />
+<img width="1012" height="39" alt="07_Tenable_Compliance_Validation_Passed" src="https://github.com/user-attachments/assets/7084df46-ce8e-41f8-9274-198d5aeee7a1" />
+
 
 ---
 
